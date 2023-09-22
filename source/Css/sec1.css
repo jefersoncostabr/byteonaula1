@@ -1,0 +1,58 @@
+/*      *** Formatação GERAL ***      */
+.sec1ImagemNotebook {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, .8),
+            rgba(0, 0, 0, .2)),
+        url(/source/img/fundoSection1.png);
+    
+    color: white;   
+}
+
+.wraperElementosSuperiores{
+    padding: 30px ;
+}
+
+#h1Sec1 {
+    color: white;
+}
+
+#btnSec1 {
+    color: white;
+    background-color: blue;
+}
+
+/*      *** Formatação Mobile ***      */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .sec1ImagemNotebook {          
+        background-size:contain;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 436px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .sec1ImagemNotebook {          
+        background-size:contain;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+    }    
+}
+
+/*      *** Formatação Notebook ***      */
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+    .sec1ImagemNotebook {   
+        background-size: 100% auto;     
+        height: 450px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+    }
+}

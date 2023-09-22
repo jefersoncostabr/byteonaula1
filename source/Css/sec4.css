@@ -1,0 +1,58 @@
+
+/* A tabela está aumentando a largura consertar ou tirar tabela */
+
+/*      *** Formatação GERAL ***      */
+.wraperCardsClass4 h4 {
+    color: red;
+    margin: 20px 0;
+}
+
+#wrapFundoMaisMsg {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .2)), url(/source/img/fundoTapinha.png);
+    background-size: 100% auto;
+    color: white;
+    height: 225px;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+.PAbaixoDaImagem{
+    margin:30px;
+    color: gray;
+}
+
+.sec4 h2 {
+    margin: 20px;
+}
+
+/*      *** Formatação Mobile ***      */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .wraperCardsClass4{
+        margin: 60px;
+        padding:100px;
+        border: #000  1px solid;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); 
+    }
+
+    .sec4 h2 {
+        text-align: center;
+        color: blue;    
+    }
+
+}
+
+/*      *** Formatação Tablet ***      */
+
+/*      *** Formatação Notebook ***      */
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+   
+
+  
+
+    
+}

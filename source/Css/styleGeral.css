@@ -1,0 +1,36 @@
+/*      *** Formatação GERAL ***      */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.marginPadrao {
+    margin: 10px;
+}
+
+/*      *** Formatação Mobile ***      */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+}
+
+/*      *** Formatação Tablet ***      */
+
+/*      *** Formatação Notebook ***      */
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+        main {
+        width: 70%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section {
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+
+    button {
+        padding: 5px 30px;
+        border: none;
+    }
+}

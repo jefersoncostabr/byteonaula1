@@ -1,0 +1,21 @@
+/*      *** Formatação GERAL ***      */
+
+.pSection1Format {
+    padding: 30px;
+
+    text-align:justify;
+}
+
+/*      *** Formatação Mobile ***      */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .sec2ADoisParagrafos{
+        padding: 100px;
+    }
+}
+
+/*      *** Formatação Tablet ***      */
+
+/*      *** Formatação Notebook ***      */
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+    
+}

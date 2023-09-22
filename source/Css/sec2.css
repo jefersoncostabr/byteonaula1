@@ -1,0 +1,52 @@
+/*      *** Formatação GERAL ***      */
+.cardRetangularSec2 {
+    color: white;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.divInterna {
+    margin: 5px;
+}
+
+#h1Sec2 {
+    color: #448ac6;
+}
+
+#pSection2Format {
+    font-size: small;
+}
+
+.cardAzul {background-color: blue;}
+
+.cardAzulEscuro {background-color: darkblue;}
+
+.cardVerde {background-color: green;}
+
+.cardVermelho {background-color: red;}
+
+.cardRoxo {background-color: purple;}
+
+.cardAzulClaro {
+    background-color: lightblue;
+}
+
+/*      *** Formatação Mobile ***      */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .wraperTituloComParagrafo{
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+/*      *** Formatação Tablet ***      */
+
+/*      *** Formatação Notebook ***      */
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+    .wraperDuplo {
+        display: flex;
+        justify-content: center;
+    }
+}

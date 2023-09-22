@@ -1,0 +1,74 @@
+/*      *** Formatação GERAL ***      */
+.iconeMaisMarcaFormat {
+    color: white;
+}    
+
+.navPrincipal {
+    background-color: blue;
+    box-shadow: 0px 3px 5px #999;
+}
+
+.navPrincipal li {
+    margin: 15px;
+}
+
+.navPrincipal ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.linkFormat {
+    text-decoration: none;
+    color: white;
+}
+
+.liFormat {
+    list-style: none;
+}   
+
+/*      *** Formatação Mobile ***      */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .iconeMaisMarcaFormat {
+        height: 15px;
+        width: 45px;
+    }
+    
+    .navContainer {
+        display: flex;
+        justify-content: space-between;        
+    } 
+}
+
+/*      *** Formatação Tablet ***      */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .iconeMaisMarcaFormat {
+        height: 20px;
+        width: 45px;
+    }
+
+    .navContainer {
+        display: flex;
+        justify-content: space-between;        
+    } 
+}
+
+/*      *** Formatação Notebook ***      */
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+    .iconeMaisMarcaFormat {
+        height: 30px;
+        width: 90px;
+    }
+
+    .navPrincipal {
+        display: flex;
+        text-align: center;        
+    }
+
+    .navContainer {
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    } 
+}
